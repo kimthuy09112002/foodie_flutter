@@ -1,0 +1,28 @@
+^E:\CV\FOODIE_FLUTTER\BUILD\WINDOWS\CMAKEFILES\F0C3E4693F52B3BE8A99D5096E74C144\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+D:\Microsoft\VisualStudio\Base\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -E env FLUTTER_ROOT=D:\flutter_windows_3.13.2-stable\flutter PROJECT_DIR=E:\CV\foodie_flutter FLUTTER_ROOT=D:\flutter_windows_3.13.2-stable\flutter FLUTTER_EPHEMERAL_DIR=E:\CV\foodie_flutter\windows\flutter\ephemeral PROJECT_DIR=E:\CV\foodie_flutter FLUTTER_TARGET=E:\CV\foodie_flutter\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNTQ1Zjg3MDVkZjMwMTg3N2Q3ODcxMDdiYWMxYTZlOWZjOWVlMWFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=E:\CV\foodie_flutter\.dart_tool\package_config.json D:/flutter_windows_3.13.2-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\CV\FOODIE_FLUTTER\BUILD\WINDOWS\CMAKEFILES\957FE4E63823C4506A5A41B83F35BB66\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\CV\FOODIE_FLUTTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+D:\Microsoft\VisualStudio\Base\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe -SE:/CV/foodie_flutter/windows -BE:/CV/foodie_flutter/build/windows --check-stamp-file E:/CV/foodie_flutter/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
